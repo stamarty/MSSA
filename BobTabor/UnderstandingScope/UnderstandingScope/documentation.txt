@@ -3,3 +3,6 @@ Presumably, I'll be able to save this in the current solution I am working on.
 
 How do we make changes online (or remotely) and have them synched to all the computers
 I want them to be synched to?
+
+First we fetch from GitHub, then we pull. Fetch only tells that there are changes? 
+Pull actually synchs them. 

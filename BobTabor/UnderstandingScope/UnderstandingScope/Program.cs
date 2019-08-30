@@ -15,7 +15,7 @@ namespace UnderstandingScope
                 Console.WriteLine(i);
             }
 
-            Console.WriteLine("Outside of the for: " + j);//works because j was declared outside the for block
+            Console.WriteLine("Outside of the for: " + j); //works because j was declared outside the for block
             Console.ReadLine();
         }
     }
