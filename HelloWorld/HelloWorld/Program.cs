@@ -9,12 +9,5 @@ namespace HelloWorld
             Console.WriteLine("Hello World!");
         }
     }
-    class CountUp
-    {
-        for (int i = 0; i < 11; i++)
-			{
-                Console.WriteLine(i);
-	        }
-    }
 }
 
