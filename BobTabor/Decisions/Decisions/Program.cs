@@ -26,7 +26,7 @@ namespace Decisions
             }
             else
             {
-                message = "Pick one of the available options! Don't go rogue on me now.";       
+                message = "Easy there! Pick one of the available options! Don't go rogue on me now.";       
             }
 
             Console.WriteLine(message);
