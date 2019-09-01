@@ -23,8 +23,5 @@ namespace MyCodeLibrary
             WebClient client = new WebClient();
             return client.DownloadString(url);
         }
-
-
-
     }
 }
