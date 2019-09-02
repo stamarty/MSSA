@@ -30,7 +30,7 @@ namespace FibonacciGenerator
                 fibA = fibB;
                 fibB = fibC;
 
-                Console.WriteLine(fibC);
+                Console.Write(fibC + " - ");
             }
 
             Console.ReadLine();
