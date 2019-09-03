@@ -22,15 +22,16 @@ namespace FibonacciGenerator
             Int32.TryParse(desiredNumber, out int count);
 
             if (count == 0)
-                Console.WriteLine("Your Fibonacci number is {0}", fibA);
+              Console.WriteLine("Why did you even open this project then?");
 
             for (int i = 0; i < count; i++)
             {
-                fibC = fibA + fibB;
                 fibA = fibB;
                 fibB = fibC;
+                fibC = fibA + fibB;
+                
 
-                Console.Write(fibC + " - ");
+                Console.Write(fibB + " - ");
             }
 
             Console.ReadLine();
