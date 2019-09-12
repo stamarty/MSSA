@@ -15,5 +15,6 @@
         <Label x:Name="My_Label" Content="" HorizontalAlignment="Left" Margin="17.125,138,0,0" VerticalAlignment="Top" Grid.Column="1"/>
         <Button Content="Don't do it. " HorizontalAlignment="Left" Margin="101,138,0,0" VerticalAlignment="Top" Width="75" Cursor="Pen"/>
         <Label x:Name="myOtherLabel" Content="" Grid.Column="1" HorizontalAlignment="Left" Margin="177,60,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="myThirdLabel" Content="" Grid.Column="1" HorizontalAlignment="Left" Margin="289,310,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>

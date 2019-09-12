@@ -30,6 +30,7 @@ namespace WpfEvents
         {
             My_Label.Content = "Hello, Steven!";
             myOtherLabel.Content = "Hello, Cierra!";
+            myThirdLabel.Content = "Hello, Amanda!";
         }
     }
 }
