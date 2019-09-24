@@ -15,7 +15,7 @@ namespace CSharpMidterm
 
             //TODO Function BEEP
             //plays a sound through the speakers.
-            Console.Beep();
+            //Console.Beep();
             //Console.Beep(500, 2000);
             //Console.Beep(750, 2000);
             //Console.Beep(1000, 2000);
@@ -31,7 +31,7 @@ namespace CSharpMidterm
             //    Console.Beep();
             //}
 
-            //TODO Function MATH
+            //TODO Method MATH.POW
             //Provides constants and static methods for trigonometric, logarithmic, and other common mathematical functions.
 
             //Console.WriteLine("Let's find a hypontenuse! (press 'enter' to continue)");
@@ -54,7 +54,23 @@ namespace CSharpMidterm
 
             //Console.WriteLine("Your hypotenuse is {0}.", cLength);
 
-            //TODO Function 3
+            //TODO Function Math.Round
+            //Rounds a number to an integer by using normal rounding conventions.
+
+
+            //double q = Math.Round(31.45);
+            //double r = Math.Round(31.55);
+            //Console.WriteLine("31.45 rounded is {0}", q);
+            //Console.WriteLine("31.55 rounded is {0}", r);
+
+            //double s = Math.Round(31.44555, 2);
+            //double t = Math.Round(31.44455, 2);
+            //Console.WriteLine("31.44555 rounded 2 places is {0}", s);
+            //Console.WriteLine("31.44455 rounded 2 places is {0}", t);
+
+
+
+
             //TODO Function 4
             //TODO Function 5
 
@@ -74,7 +90,7 @@ namespace CSharpMidterm
             //TODO Function 5
 
             Console.WriteLine("Hello, World!");
-            Console.Beep();
+            
 
         }
     }
