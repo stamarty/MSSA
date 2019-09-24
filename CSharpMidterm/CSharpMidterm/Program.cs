@@ -32,7 +32,27 @@ namespace CSharpMidterm
             //}
 
             //TODO Function MATH
-            Math.
+            //Provides constants and static methods for trigonometric, logarithmic, and other common mathematical functions.
+
+            //Console.WriteLine("Let's find a hypontenuse! (press 'enter' to continue)");
+            //Console.ReadLine();
+
+            //Console.WriteLine("What is the length of the short side?");
+            //string sLength = Console.ReadLine();
+
+            //Console.WriteLine("What is the length of the long side?");
+            //string lLength = Console.ReadLine();
+
+            //double a, b;
+
+            //double.TryParse(sLength, out a);
+            //double.TryParse(lLength, out b);
+
+            //double aLength = Math.Pow(a, 2);
+            //double bLength = Math.Pow(b, 2);
+            //double cLength = (aLength + bLength);
+
+            //Console.WriteLine("Your hypotenuse is {0}.", cLength);
 
             //TODO Function 3
             //TODO Function 4
