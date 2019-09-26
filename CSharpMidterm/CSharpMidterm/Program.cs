@@ -13,7 +13,7 @@ namespace CSharpMidterm
             //TODO Function BEEP
             //plays a sound through the speakers.
 
-            //Console.Beep();
+            Console.Beep();
 
             //Console.Beep(500, 2000);
             //Console.Beep(750, 2000);
@@ -34,7 +34,7 @@ namespace CSharpMidterm
 
 
             //-------------------------------------
-            //TODO Method MATH.POW
+            //TODO Method MATH.POW (raises a number to a particular exponent)
             //Provides constants and static methods for trigonometric, logarithmic, and other common mathematical functions.
             //Hypotenuse - WRONG
 
@@ -52,8 +52,9 @@ namespace CSharpMidterm
             //double cLength = (aLength + bLength);
             //Console.WriteLine("Your hypotenuse is {0}.", cLength);
 
+
             //-------------------------------------
-            //TODO - Math.SQRT
+            //TODO - Math.SQRT - finds the square root of a number. 
             //Hypotenuse - Correct
 
             //Console.WriteLine("Let's find a hypontenuse! (press 'enter' to continue)");
@@ -90,7 +91,7 @@ namespace CSharpMidterm
             //Array type mismatch exception
 
             //string[] siblings = { "john", "jamie", "robert", "simon" };
-            //Object[] objs = (Object[]) siblings;
+            //Object[] objs = (Object[])siblings;
             //try
             //{
             //    foreach (object name in objs)
@@ -126,34 +127,34 @@ namespace CSharpMidterm
             //-------------------------------------
 
             //Console.WriteLine("Let's create a file.");
-            //using (File.Create("E:\\Program Files\\Repos\\MSSA\\CSharpMidterm\\iheartcsharp.txt")) ;
+            //using (File.Create(@"C:\Users\Steven.Martinez\source\repos\MSSA\CSharpMidterm\iheartcsharp.txt")) ;
             //Console.WriteLine("iheartcsharp created.");
             //Console.ReadLine();
 
             ////TODO WriteAllText Method
             //string text = "Hello World";
-            //File.WriteAllText("E:\\Program Files\\Repos\\MSSA\\CSharpMidterm\\iheartcsharp2.txt", text);
+            //File.WriteAllText(@"C:\Users\Steven.Martinez\source\repos\MSSA\CSharpMidterm\iheartcsharp2.txt", text);
             //Console.WriteLine("iheartcsharp2 created.");
             //Console.ReadLine();
 
-            ////TODO Copy Method
+            //////TODO Copy Method
 
-            //File.Copy("E:\\Program Files\\Repos\\MSSA\\CSharpMidterm\\iheartcsharp2.txt", "E:\\Program Files\\Repos\\MSSA\\CSharpMidterm\\iheartcsharp.txt", true);
+            //File.Copy(@"C:\Users\Steven.Martinez\source\repos\MSSA\CSharpMidterm\iheartcsharp2.txt", @"C:\Users\Steven.Martinez\source\repos\MSSA\CSharpMidterm\iheartcsharp.txt", true);
             //Console.WriteLine("iheartcsharp2 copied to iheartcsharp.");
             //Console.ReadLine();
 
             ////TODO ReadAllText Method
 
-            //string contents = File.ReadAllText("E:\\Program Files\\Repos\\MSSA\\CSharpMidterm\\iheartcsharp.txt");
+            //string contents = File.ReadAllText(@"C:\Users\Steven.Martinez\source\repos\MSSA\CSharpMidterm\iheartcsharp.txt");
             //Console.WriteLine("iheartcsharp contained the following text: {0} ", contents);
             //Console.ReadLine();
 
             ////TODO Delete Method
-            //File.Delete("E:\\Program Files\\Repos\\MSSA\\CSharpMidterm\\iheartcsharp.txt");
+            //File.Delete(@"C:\Users\Steven.Martinez\source\repos\MSSA\CSharpMidterm\iheartcsharp.txt");
             //Console.WriteLine("iheartcsharp deleted");
             //Console.ReadLine();
 
-            //File.Delete("E:\\Program Files\\Repos\\MSSA\\CSharpMidterm\\iheartcsharp2.txt");
+            //File.Delete(@"C:\Users\Steven.Martinez\source\repos\MSSA\CSharpMidterm\iheartcsharp2.txt");
             //Console.WriteLine("iheartcsharp2 deleted");
             //Console.ReadLine();
 
@@ -168,36 +169,34 @@ namespace CSharpMidterm
 
             //TODO SoundPlayer Class PlaySync
 
-            //SoundPlayer player = new SoundPlayer(@"E:\Program Files\Repos\MSSA\CSharpMidterm\laser.wav");
+            //SoundPlayer player = new SoundPlayer(@"C:\Users\Steven.Martinez\source\repos\MSSA\CSharpMidterm\laser.wav");
             //player.PlaySync();
             //Console.WriteLine("laser played");
             //Console.ReadLine();
 
-            ////TODO SystemSound Class play method.
+            //////TODO SystemSound Class play method.
 
             //SystemSounds.Asterisk.Play();
             //Console.WriteLine("Asterisk played");
             //Console.ReadLine();
 
 
-            ////TODO Playlooping
+            //////TODO Playlooping
 
             //player.PlayLooping();
             //Console.WriteLine("playlooping should function");
             //Console.ReadLine();
 
 
-            ////TODO STOP
+            //////TODO STOP
 
             //player.Stop();
             //Console.WriteLine("should be stopped?");
 
-            //TODO Load and play (need help, can't get it to run)
-            //player.Load();
-            //player.Play();
-            
+            ////TODO Load and play
+            ////player.Load();
+            ////player.Play();
 
-            Console.WriteLine("Hello, World!");
 
 
         }
