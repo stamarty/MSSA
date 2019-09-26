@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Media;
 
 namespace CSharpMidterm
 {
@@ -161,12 +162,40 @@ namespace CSharpMidterm
 
 
 
-            //TODO Namespace 3
-            //TODO Function 1
-            //TODO Function 2
-            //TODO Function 3
-            //TODO Function 4
-            //TODO Function 5
+            //TODO System.Media
+            //The System.Media namespace contains classes for playing sound 
+            //files and accessing sounds provided by the system.
+
+            //TODO SoundPlayer Class PlaySync
+
+            //SoundPlayer player = new SoundPlayer(@"E:\Program Files\Repos\MSSA\CSharpMidterm\laser.wav");
+            //player.PlaySync();
+            //Console.WriteLine("laser played");
+            //Console.ReadLine();
+
+            ////TODO SystemSound Class play method.
+
+            //SystemSounds.Asterisk.Play();
+            //Console.WriteLine("Asterisk played");
+            //Console.ReadLine();
+
+
+            ////TODO Playlooping
+
+            //player.PlayLooping();
+            //Console.WriteLine("playlooping should function");
+            //Console.ReadLine();
+
+
+            ////TODO STOP
+
+            //player.Stop();
+            //Console.WriteLine("should be stopped?");
+
+            //TODO Load and play (need help, can't get it to run)
+            //player.Load();
+            //player.Play();
+            
 
             Console.WriteLine("Hello, World!");
 
