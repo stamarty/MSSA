@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Mod3Assessment
 {
@@ -10,12 +6,12 @@ namespace Mod3Assessment
     {
         static void Main(string[] args)
         {
-            GetStudentInfo(out firstName, out lastName, out birth);
-            PrintStudentInfo(firstName, lastName, birth);
+            GetStudentInfo(out first, out lastName, out birth);
+            PrintStudentInfo(first, lastName, birth);
 
         }
 
-        static string GetStudentInfo(out string firstName, out string lastName, out string birth)
+        static void GetStudentInfo(out string firstName, out string lastName, out string birth)
         {
             Console.WriteLine("Enter Student's first name: ");
             firstName = Console.ReadLine();
@@ -42,7 +38,7 @@ namespace Mod3Assessment
 
         static void PrintTeachInfo(string first, string last, string birth)
         {
-            Console.WriteLine("{0} {1} was born on: {2}.",first, last, birth);
+            Console.WriteLine("{0} {1} was born on: {2}.", first, last, birth);
         }
 
         static void GetDegreeInfo()
