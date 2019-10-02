@@ -6,10 +6,18 @@ namespace Mod3Assessment
     {
         static void Main(string[] args)
         {
-            GetStudentInfo(out first, out lastName, out birth);
-            PrintStudentInfo(first, lastName, birth);
+            GetStudentInfo(out string firstName, out string lastName, out string birth);
+            PrintStudentInfo(firstName, lastName, birth);
+
+            GetTeachInfo(out string teachFirst, out string teachLast, out string teachDOB);
+            PrintTeachInfo(teachFirst, teachLast, teachDOB);
+
+            GetDegreeInfo(out string degree, out string ID, out string professor);
+            PrintDegreeInfo(degree, ID, professor);
 
         }
+
+        #region Student Info
 
         static void GetStudentInfo(out string firstName, out string lastName, out string birth)
         {
@@ -26,35 +34,41 @@ namespace Mod3Assessment
             Console.WriteLine("{0} {1} was born on: {2}", first, last, birth);
         }
 
-        static void GetTeachInfo()
+        #endregion
+
+        #region  Teacher Info
+        static void GetTeachInfo(out string firstName, out string lastName, out string DOB)
         {
             Console.WriteLine("Enter teacher's first name: ");
-            string firstName = Console.ReadLine();
+            firstName = Console.ReadLine();
             Console.WriteLine("Enter teacher's last name: ");
-            string lastName = Console.ReadLine();
+            lastName = Console.ReadLine();
             Console.WriteLine("Enter teachers's birthday: ");
-            string DOB = Console.ReadLine();
+            DOB = Console.ReadLine();
         }
 
         static void PrintTeachInfo(string first, string last, string birth)
         {
             Console.WriteLine("{0} {1} was born on: {2}.", first, last, birth);
         }
+        #endregion
 
-        static void GetDegreeInfo()
+        #region Degree Info
+        static void GetDegreeInfo(out string degree, out string ID, out string professor)
         {
             Console.WriteLine("What degree are you interested in? ");
-            string degree = Console.ReadLine();
+            degree = Console.ReadLine();
             Console.WriteLine("What is the degree ID? ");
-            string ID = Console.ReadLine();
+            ID = Console.ReadLine();
             Console.WriteLine("What is the professor's name? ");
-            string professor = Console.ReadLine();
+            professor = Console.ReadLine();
         }
 
         static void PrintDegreeInfo(string degree, string ID, string professor)
         {
             Console.WriteLine("Degree {0} with ID {1} is taught by {2}.", degree, ID, professor);
         }
+        #endregion
 
 
 
