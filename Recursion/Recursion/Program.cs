@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApplication2
+namespace Recursion
 {
     class Program
     {
@@ -12,17 +12,14 @@ namespace ConsoleApplication2
         {
             PrintNum(0);
         }
-
         static void PrintNum(int num)
         {
             Console.WriteLine(num);
-            if (num == 10)
+            if (num==10)
             {
                 return;
             }
-            
             PrintNum(++num);
-            
         }
     }
 }
