@@ -38,7 +38,7 @@ namespace Mod2Assignment
         {
             while (num > 0)
             {
-                Console.WriteLine(num.ToString()); //prints the current number decrementing through the if statement, converts num to string. 
+                Console.WriteLine(num.ToString()); //prints the current number decrementing through the while statement, converts num to string. 
                 num--;
             }
 
