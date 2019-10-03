@@ -18,7 +18,12 @@ namespace Mod2Assignment
             countTo(14); //one parameter will count the integer back from num.
             countTo(42, "You wrote the number ");
 
-           
+            //creating a tracker to help maintain accountability of my Son's Boy Scout Troop. 
+            //We're practicing using the "OUT" keyword. The method allows the the variables assigned to be referenced 
+            //outside the method. The variables have to be declared during the time of method call. They do not have to be 
+            //declared inline (but it looks nicer). 
+            GetScoutInfo(out string firstName, out string lastName, out string birth);
+            PrintScoutInfo(firstName, lastName, birth); //the parameters of this method are from the GetScoutInfo method. 
         }
 
         //method has no parameters but can be called to only do the thing in the method.
@@ -45,6 +50,23 @@ namespace Mod2Assignment
         static void countTo(int num, string words)
         {
             Console.WriteLine(words + num.ToString());
+        }
+
+        //this method asks for the Boy Scout's name and assigns an appropriate variable. The variables are then allowed
+        //OUT of the method to act as variables when the method is called.
+        static void GetScoutInfo(out string firstName, out string lastName, out string birth)
+        {
+            Console.WriteLine("Enter Scout's first name: ");
+            firstName = Console.ReadLine();
+            Console.WriteLine("Enter Scout's last name: ");
+            lastName = Console.ReadLine();
+            Console.WriteLine("Enter Scout's birthday: ");
+            birth = Console.ReadLine();
+        }
+        //this method just concatenates and prints the information from the above method.
+        static void PrintScoutInfo(string first, string last, string birth)
+        {
+            Console.WriteLine("Scout {0} {1} was born on: {2}", first, last, birth);
         }
     }
 }
