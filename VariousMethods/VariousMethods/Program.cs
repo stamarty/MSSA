@@ -29,6 +29,16 @@ namespace VariousMethods
             }
 
             Console.WriteLine("------------");
+
+            char[] backwardsNumber = "fortytwo".ToCharArray();
+            Array.Reverse(backwardsNumber);
+            foreach (char c in backwardsNumber)
+            {
+                Console.Write(c);
+            }
+            Console.WriteLine();
+
+            Console.WriteLine("------------");
             
             int[] nums = new int[5] { 1, 2, 3, 4, 5 };
             Array.Reverse(nums);
