@@ -10,6 +10,8 @@ namespace VariousMethods
     {
         static void Main(string[] args)
         {
+            
+            
             string[] newArray = new string[26] { "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k",
                 "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z" };
 
@@ -50,18 +52,18 @@ namespace VariousMethods
             Console.WriteLine("------------");
 
         }
-
         public static string[] ReverseArray(string[] arr)
         {
-            for (int i = 0, j=arr.Length-1; i < j; i++, j--)
+            for (int i = 0, j = arr.Length - 1; i < j; i++, j--)
             {
                 string temp = arr[i];
                 arr[i] = arr[j];
-                arr[j] = temp;                
+                arr[j] = temp;
             }
 
             Console.WriteLine("[{0}]", string.Join(", ", arr));
             return arr;
         }
+
     }
 }
