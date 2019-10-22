@@ -29,21 +29,21 @@ C# Class (CSC 205)
 ### C# Midterm
 The assignment was to use five different methods from each of three different **C# Namespaces**. Right now this is just a block of commented out code. I need to clean it up with *Console.ReadLine();* in a few places and make this work more like a program. Instead of a bunch of text.
 
-- [X] using System;
+[X] using System;
 + Console.Beep();
 + Math.Pow();
 + Math.SQRT();
 + Math.Round();
 + ArrayTypeMismatch Exception
 
-- [X] using System.IO;
+[X] using System.IO;
 + File.Create();
 + Console.WriteLine();
 + File.Copy();
 + File.ReadAllText();
 + File.Delete();
 
-- [X] using System.Media;
+[X] using System.Media;
 + PlaySync();
 + SystemSounds.Asterisk.Play();
 + player.PlayLooping();
@@ -60,4 +60,4 @@ Lessons learned regarding **Hashtables** from Module 3 of the textbook. This is 
 ### C# BMI Calculator
 Migrated *BMI-Calculator* from it's own repo. This was an assignment for CSC 205, but is not a significant enough program to warrant it's own repo. I wrote this program within the first couple weeks of learning C#. There is almost no evidence of **DRY** principles (i.e. no methods involved at all yet). I plan on updating this eventually to make it an actual program. 
 
-- [] Open issue for refactoring of BMI Calculator. 
+[] Open issue for refactoring of BMI Calculator. 
