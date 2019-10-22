@@ -75,6 +75,8 @@ Migrated *BMI-Calculator* from it's own repo. This was an assignment for CSC 205
 
 ## Intro to C# on [EdEx](https://miledu.microsoft.com/login?next=/mssainfo)
 
+---------------
+
 ### Intro to C# Module 1
 
 Build "teacher" and "students" without using classes, or methods. This is a lot of gibberish. There is a much easier way to do this.
@@ -93,16 +95,18 @@ Not complete yet.
 
 ## Personal Practice Files
 
+---------------
+
 This probably needs to be reorganized even further. Included in here are the following "programs".
 
 ### Count up
 
 How many times do you want to say a particular phrase? This is the console app for you!
 
-## Fibonacci Generator
+### Fibonacci Generator
 
 My first program that actually does something. This was a challenge working through the **algorithm** and practicing "**thinking like a programmer**". This version is completed in **C#**
 
-## Python Fibonacci Generator
+### Python Fibonacci Generator
 
 Learning **Python** and **C#** at the same time poses some challenges. This is the Python version of *Fibonacci Generator*.
