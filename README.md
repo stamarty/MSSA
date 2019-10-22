@@ -110,3 +110,11 @@ My first program that actually does something. This was a challenge working thro
 ### Python Fibonacci Generator
 
 Learning **Python** and **C#** at the same time poses some challenges. This is the Python version of *Fibonacci Generator*.
+
+## Basic Practice with Recursion
+
+---------------
+
+**Hanoi Towers** is me following along with a professor who was explaining the way recursion works to solve this problem. I thought it was elegant and want to study it more.
+
+The Repo called "Recursion" is very simple. I am keeping this a sub-section because I am certain I will be doing a lot with recursion later.
