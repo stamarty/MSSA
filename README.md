@@ -27,6 +27,29 @@ A [DevU](https://channel9.msdn.com/Series/CSharp-Fundamentals-for-Absolute-Begin
 C# Class (CSC 205)
 ---------------
 ### C# Midterm
+The assignment was to use five different methods from each of three different **C# Namespaces**. Right now this is just a block of commented out code. I need to clean it up with *Console.ReadLine();* in a few places and make this work more like a program. Instead of a bunch of text.
+
+-[X] using System;
+--[X] Console.Beep();
+--[X] Math.Pow();
+--[X] Math.SQRT();
+--[X] Math.Round();
+--[X] ArrayTypeMismatch Exception
+
+-[X] using System.IO;
+--[X] File.Create();
+--[X] Console.WriteLine();
+--[X] File.Copy();
+--[X] File.ReadAllText();
+--[X] File.Delete();
+
+-[X] using System.Media;
+--[X] PlaySync();
+--[X] SystemSounds.Asterisk.Play();
+--[X] player.PlayLooping();
+--[X] player.Stop();
+--[X] player.Load(); and player.Play();
+
 
 ### C# Module 2
 
