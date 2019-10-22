@@ -30,6 +30,7 @@ C# Class (CSC 205)
 The assignment was to use five different methods from each of three different **C# Namespaces**. Right now this is just a block of commented out code. I need to clean it up with *Console.ReadLine();* in a few places and make this work more like a program. Instead of a bunch of text.
 
 -[X] using System;
+
 +Console.Beep();
 +Math.Pow();
 +Math.SQRT();
