@@ -3,7 +3,7 @@ Within this repository are many of the projects I've worked on over the course o
 
 Some of the work I've done is not necessarily for MSSA, but doesn't necessitate it's own repo. 
 
-C# For Absolute Beginners
+## C# For Absolute Beginners
 ---------------
 A [DevU](https://channel9.msdn.com/Series/CSharp-Fundamentals-for-Absolute-Beginners?l=Lvld4EQIC_2706218949) series by **Bob Tabor** explains, with samples, the topics listed below. These particular files are me learning **GIT, github, Visual Studio** and the basics of **C#**.
 
@@ -24,7 +24,7 @@ A [DevU](https://channel9.msdn.com/Series/CSharp-Fundamentals-for-Absolute-Begin
 - [X] Strings
 - [X] WPF Events
 
-C# Class (CSC 205)
+## C# Class (CSC 205)
 ---------------
 ### C# Midterm
 The assignment was to use five different methods from each of three different **C# Namespaces**. Right now this is just a block of commented out code. I need to clean it up with *Console.ReadLine();* in a few places and make this work more like a program. Instead of a bunch of text.
