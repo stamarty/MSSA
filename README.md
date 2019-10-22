@@ -58,3 +58,6 @@ Lessons learned regarding **overloading methods** from Module 2 of the textbook.
 Lessons learned regarding **Hashtables** from Module 3 of the textbook. This is commented more than I normally would comment due to the wishes of my instructor.
 
 ### C# BMI Calculator
+Migrated *BMI-Calculator* from it's own repo. This was an assignment for CSC 205, but is not a significant enough program to warrant it's own repo. I wrote this program within the first couple weeks of learning C#. There is almost no evidence of **DRY** principles (i.e. no methods involved at all yet). I plan on updating this eventually to make it an actual program. 
+
+-[] Open issue for refactoring of BMI Calculator. 
