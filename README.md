@@ -30,29 +30,31 @@ C# Class (CSC 205)
 The assignment was to use five different methods from each of three different **C# Namespaces**. Right now this is just a block of commented out code. I need to clean it up with *Console.ReadLine();* in a few places and make this work more like a program. Instead of a bunch of text.
 
 -[X] using System;
->Console.Beep();
->Math.Pow();
->Math.SQRT();
->Math.Round();
->ArrayTypeMismatch Exception
++Console.Beep();
++Math.Pow();
++Math.SQRT();
++Math.Round();
++ArrayTypeMismatch Exception
 
 -[X] using System.IO;
---[X] File.Create();
---[X] Console.WriteLine();
---[X] File.Copy();
---[X] File.ReadAllText();
---[X] File.Delete();
++File.Create();
++Console.WriteLine();
++File.Copy();
++File.ReadAllText();
++File.Delete();
 
 -[X] using System.Media;
---[X] PlaySync();
---[X] SystemSounds.Asterisk.Play();
---[X] player.PlayLooping();
---[X] player.Stop();
---[X] player.Load(); and player.Play();
++PlaySync();
++SystemSounds.Asterisk.Play();
++player.PlayLooping();
++player.Stop();
++player.Load(); and player.Play();
 
 
 ### C# Module 2
+Lessons learned regarding **overloading methods** from Module 2 of the textbook. This is commented more than I normally would comment due to the wishes of my instructor.  
 
 ### C# Module 3
+Lessons learned regarding **Hashtables** from Module 3 of the textbook. This is commented more than I normally would comment due to the wishes of my instructor.
 
 ### C# BMI Calculator
