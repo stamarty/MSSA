@@ -79,7 +79,7 @@ Migrated *BMI-Calculator* from it's own repo. This was an assignment for CSC 205
 
 ### Intro to C# Module 1
 
-Build "teacher" and "students" without using classes, or methods. This is a lot of gibberish. There is a much easier way to do this.
+Build "teacher" and "students" without using classes, or methods. This is a lot of gibberish. There is a much easier way to do this, but I didn't know that at the time. :)
 
 ### Intro to C# Module 2
 
