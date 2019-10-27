@@ -10,22 +10,22 @@ Some of the work I've done is not necessarily for MSSA, but doesn't necessitate 
 
 A [DevU](https://channel9.msdn.com/Series/CSharp-Fundamentals-for-Absolute-Beginners?l=Lvld4EQIC_2706218949) series by **Bob Tabor** explains, with samples, the topics listed below. These particular files are me learning **GIT, github, Visual Studio** and the basics of **C#**.
 
-- [X] Dates and Times
-- [X] Enums and Switching
-- [X] For Iteration
-- [X] Exception Handling
-- [X] Methods and Helper Methods
-- [X] Object Lifetime
-- [X] Classes
-- [X] Timers
-- [X] Arrays
-- [X] LINQ
-- [X] Scope
-- [X] Variables
-- [X] While Iterations
-- [X] Collections
-- [X] Strings
-- [X] WPF Events
+- [X] [Dates and Times](https://github.com/stamarty/MSSA/tree/master/BobTabor/DatesAndTimes)
+- [X] [Enums and Switching](https://github.com/stamarty/MSSA/tree/master/BobTabor/EnumsAndSwitch)
+- [X] [For Iteration](https://github.com/stamarty/MSSA/tree/master/BobTabor/ForIteration)
+- [X] [Exception Handling](https://github.com/stamarty/MSSA/tree/master/BobTabor/HandlingExceptions)
+- [X] [Methods and Helper Methods](https://github.com/stamarty/MSSA/tree/master/BobTabor/HelperMethods)
+- [X] [Object Lifetime](https://github.com/stamarty/MSSA/tree/master/BobTabor/ObjectLifetime)
+- [X] [Classes](https://github.com/stamarty/MSSA/tree/master/BobTabor/SimpleClasses)
+- [X] [Timers](https://github.com/stamarty/MSSA/tree/master/BobTabor/TimerExample)
+- [X] [Arrays](https://github.com/stamarty/MSSA/tree/master/BobTabor/UnderstandingArrays)
+- [X] [LINQ](https://github.com/stamarty/MSSA/tree/master/BobTabor/UnderstandingLINQ)
+- [X] [Scope](https://github.com/stamarty/MSSA/tree/master/BobTabor/UnderstandingScope)
+- [X] [Variables](https://github.com/stamarty/MSSA/tree/master/BobTabor/Variables)
+- [X] [While Iterations](https://github.com/stamarty/MSSA/tree/master/BobTabor/WhileIteration)
+- [X] [Collections](https://github.com/stamarty/MSSA/tree/master/BobTabor/WorkingWithCollections)
+- [X] [Strings](https://github.com/stamarty/MSSA/tree/master/BobTabor/WorkingWithStrings)
+- [X] [WPF Events](https://github.com/stamarty/MSSA/tree/master/BobTabor/WpfEvents)
 
 ## C# Class (CSC 205)
 
@@ -107,14 +107,18 @@ How many times do you want to say a particular phrase? This is the console app f
 
 My first program that actually does something. This was a challenge working through the **algorithm** and practicing "**thinking like a programmer**". This version is completed in **C#**
 
+[Fibonacci Generator](https://github.com/stamarty/MSSA/tree/master/PersonalPractice/FibonacciGenerator)
+
 ### Python Fibonacci Generator
 
 Learning **Python** and **C#** at the same time poses some challenges. This is the Python version of *Fibonacci Generator*.
+
+[Python Fibonacci Generator](https://github.com/stamarty/MSSA/tree/master/PersonalPractice/PythonFibonacciGenerator)
 
 ## Basic Practice with Recursion
 
 ---------------
 
-**Hanoi Towers** is me following along with a professor who was explaining the way recursion works to solve this problem. I thought it was elegant and want to study it more.
+**[Hanoi Towers](https://github.com/stamarty/MSSA/tree/master/HanoiTowers)** is me following along with a professor who was explaining the way recursion works to solve this problem. I thought it was elegant and want to study it more.
 
-The Repo called "Recursion" is very simple. I am keeping this a sub-section because I am certain I will be doing a lot with recursion later.
+The Repo called "**[Recursion](https://github.com/stamarty/MSSA/tree/master/Recursion)**" is very simple. I am keeping this a sub-section because I am certain I will be doing a lot with recursion later.
