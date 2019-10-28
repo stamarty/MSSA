@@ -4,6 +4,39 @@ Within this repository are many of the projects I've worked on over the course o
 
 Some of the work I've done is not necessarily for MSSA, but doesn't necessitate it's own repo.
 
+## Personal Practice Files
+
+---------------
+
+This probably needs to be reorganized even further. Included in here are the following "programs".
+
+### Count up
+
+How many times do you want to say a particular phrase? This is the console app for you!
+
+[Count Up](https://github.com/stamarty/MSSA/tree/master/PersonalPractice/CountUp)
+
+### Fibonacci Generator
+
+My first program that actually does something. This was a challenge working through the **algorithm** and practicing "**thinking like a programmer**". This version is completed in **C#**
+
+[Fibonacci Generator](https://github.com/stamarty/MSSA/tree/master/PersonalPractice/FibonacciGenerator)
+
+### Python Fibonacci Generator
+
+Learning **Python** and **C#** at the same time poses some challenges. This is the Python version of *Fibonacci Generator*.
+
+[Python Fibonacci Generator](https://github.com/stamarty/MSSA/tree/master/PersonalPractice/PythonFibonacciGenerator)
+
+## Basic Practice with Recursion
+
+---------------
+
+**[Hanoi Towers](https://github.com/stamarty/MSSA/tree/master/HanoiTowers)** is me following along with a professor who was explaining the way recursion works to solve this problem. I thought it was elegant and want to study it more.
+
+The Repo called "**[Recursion](https://github.com/stamarty/MSSA/tree/master/Recursion)**" is very simple. I am keeping this a sub-section because I am certain I will be doing a lot with recursion later.
+
+
 ## C# For Absolute Beginners
 
 ---------------
@@ -92,33 +125,3 @@ Began working with methods. We are now creating teachers and students a little m
 ### Intro to C# Module 4
 
 Not complete yet.
-
-## Personal Practice Files
-
----------------
-
-This probably needs to be reorganized even further. Included in here are the following "programs".
-
-### Count up
-
-How many times do you want to say a particular phrase? This is the console app for you!
-
-### Fibonacci Generator
-
-My first program that actually does something. This was a challenge working through the **algorithm** and practicing "**thinking like a programmer**". This version is completed in **C#**
-
-[Fibonacci Generator](https://github.com/stamarty/MSSA/tree/master/PersonalPractice/FibonacciGenerator)
-
-### Python Fibonacci Generator
-
-Learning **Python** and **C#** at the same time poses some challenges. This is the Python version of *Fibonacci Generator*.
-
-[Python Fibonacci Generator](https://github.com/stamarty/MSSA/tree/master/PersonalPractice/PythonFibonacciGenerator)
-
-## Basic Practice with Recursion
-
----------------
-
-**[Hanoi Towers](https://github.com/stamarty/MSSA/tree/master/HanoiTowers)** is me following along with a professor who was explaining the way recursion works to solve this problem. I thought it was elegant and want to study it more.
-
-The Repo called "**[Recursion](https://github.com/stamarty/MSSA/tree/master/Recursion)**" is very simple. I am keeping this a sub-section because I am certain I will be doing a lot with recursion later.
