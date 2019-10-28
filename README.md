@@ -8,7 +8,7 @@ Some of the work I've done is not necessarily for MSSA, but doesn't necessitate 
 
 ---------------
 
-This probably needs to be reorganized even further. Included in here are the following "programs".
+Simple programs I'm using to practice various coding principles.
 
 ### Count up
 
