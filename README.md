@@ -36,7 +36,6 @@ Learning **Python** and **C#** at the same time poses some challenges. This is t
 
 The Repo called "**[Recursion](https://github.com/stamarty/MSSA/tree/master/Recursion)**" is very simple. I am keeping this a sub-section because I am certain I will be doing a lot with recursion later.
 
-
 ## C# For Absolute Beginners
 
 ---------------
