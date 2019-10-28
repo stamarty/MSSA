@@ -105,6 +105,12 @@ Migrated *BMI-Calculator* from it's own repo. This was an assignment for CSC 205
 
 [] Open issue for refactoring of BMI Calculator.
 
+### [CodeLabs](https://codelab4.turingscraft.com/)
+
+Part of the labwork we did for Intro to C# was in [CodeLabs](https://codelab4.turingscraft.com/). There is a lot of work here, but I was practicing **git** and focusing on **branches** and synching between systems. A lot of the work is pretty simple, but I'll leave it here for prosperity.
+
+[CodeLab Work](https://github.com/stamarty/MSSA/tree/master/CodeLab)
+
 ## Intro to C# on [EdEx](https://miledu.microsoft.com/login?next=/mssainfo)
 
 ---------------
